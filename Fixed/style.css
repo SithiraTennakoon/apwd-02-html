@@ -1,0 +1,11 @@
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid black;
+}
+
+body {
+    height: 2000px;
+}

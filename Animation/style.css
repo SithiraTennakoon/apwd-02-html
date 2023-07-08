@@ -1,0 +1,37 @@
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-iteration-count: in;
+}
+
+@keyframes sample {
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background-color: darkgreen;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: gold;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: deeppink;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: blue;
+        left: 0;
+        top: 0;
+    }
+}
